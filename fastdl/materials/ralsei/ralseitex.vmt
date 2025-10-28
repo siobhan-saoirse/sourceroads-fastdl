@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "ralsei/ralseitex"
+	"$surfaceprop" "flesh"
+
+	"$lightwarptexture" "ralsei/warp"
+
+	"$selfillum" "1"
+	"$selfillumtint" "[1 1 1]"
+	"$selfillummask" "ralsei/imask"
+
+	"$phong" "1"
+	"$phongexponent" "3"
+	"$phongboost" "0.5"
+	"$phongfresnelranges" "[0.05 0.5 1]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" ".5"
+	"$rimlightboost" ".8"
+}
