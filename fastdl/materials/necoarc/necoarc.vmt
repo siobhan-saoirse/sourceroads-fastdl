@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "necoarc/necoarc"
+
+	"$lightwarptexture" "necoarc/lightwarptexture"
+
+	"$phong" "1"
+	"$phongboost"	"24"
+	"$phongalbedotint" "1"
+	"$phongexponenttexture" "necoarc/phong_exp"
+	"$phongfresnelranges"	"[0 0 1]"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "3"
+	"$rimlightboost"          "4"
+}
