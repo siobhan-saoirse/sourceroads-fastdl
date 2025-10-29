@@ -1,0 +1,31 @@
+"Cloak"
+{
+ 	"$model" 1
+	"$nodecal" 1
+	"$bluramount" 1
+ 	"$refractamount" ".5"
+	"$normalmap" "console/models/player/sniper/sniper_normal"
+	"$refracttinttexture" "console\models\player\sniper\sniper_lens"
+	"$basetexture" "console\models\player\sniper\sniper_lens"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+
+	"$nofog" 1
+
+	"$phongboost" "1"	
+	"$phongexponent" "10"
+
+
+
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"
+	"$rimlightboost" "2"	
+
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+	}
+}
+
