@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\player\replica/gasmask_h0"
+	"$surfaceprop"	"flesh"
+	"$translucent" "1"
+}

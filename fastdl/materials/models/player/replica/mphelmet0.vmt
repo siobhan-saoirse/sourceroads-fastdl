@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\player\replica/MPHelmet0"
+	"$surfaceprop"	"flesh"
+	"$translucent" "1"
+}
