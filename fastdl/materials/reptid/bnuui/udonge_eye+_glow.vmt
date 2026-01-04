@@ -1,0 +1,15 @@
+"unlitgeneric"
+{
+	"$basetexture" "reptid/Udonge_eye+"
+	"$nodecal" 1
+	"$nocull" 1
+	"$ambientocclusion" "0"
+	"$phong" "1"
+	"$phongboost"	".02"
+	"$phongexponent" "1"
+	"$phongfresnelranges"	"[1 .1 .1]"
+	"$rimlight"               "1"
+	"$rimlightexponent"       "2"
+	"$rimlightboost"          "0.2"			
+	"$lightwarptexture" "reptid/fix"
+}

@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "reptid/kusuri_backpack"
+	$alphatest 1
+	$lightwarptexture "reptid/lightwarpshader"
+	"$nocull" 1
+	"$nodecal" 1
+}

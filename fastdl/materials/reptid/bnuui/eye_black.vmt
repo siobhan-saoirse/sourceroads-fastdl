@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "reptid/Eye_black"
+	"$nodecal" 1
+    "$nocull" 1
+	"$selfillum" 1
+}

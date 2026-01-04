@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+    "$basetexture" "reptid/Eye_white"
+    "$lightwarptexture" "reptid/fix"
+    "$nodecal" 1
+}
