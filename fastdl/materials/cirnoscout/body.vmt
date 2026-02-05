@@ -1,0 +1,68 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "cirnoscout\body"
+	"$bumpmap" "cirnoscout\normal"
+	"$ambientocclusion" "0"
+//	"$translucent" "1"
+	"$model" "1"
+	"$nodecal" "1"
+	"$nocull" "1"
+//	"$alphatest" 1
+	"$allowalphatocoverage" 1
+	"$normalmapalphaphongmask"	"1"
+	"$halflambert" "1"
+	
+	"$BlendTintByBaseAlpha"     "1"
+	"$Color2"	"{ 255 255 255 }"
+
+	"$lightwarptexture" "cirnoscout\lightwarp"
+
+                "$phong" "1"
+                "$phongboost" "0.7"
+                "$phongexponent" "5"
+	"$phongexponenttexture" "cirnoscout\phong"
+	"$phongalbedotint"          "0"
+	"$phongdisablehalflambert"  "1"
+                "$phongfresnelranges"	"[0 0.5 1]"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "1"
+	"$rimlightboost"          "1"
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+	"$detailscale" "5"
+	"$detailblendfactor" .01
+	"$detailblendmode" 6
+
+
+	"$yellow" "0"
+	"$one" "1"
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"spy_invis" //wmodel and team color cloak support
+		{
+		}
+		"invis" //vmodel cloak support
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}
