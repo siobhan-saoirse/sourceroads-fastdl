@@ -8,9 +8,9 @@
 	"$detailblendmode" 6
 
 
-	"$yellow" "0"
 	"$one" "1"
 	"$cloakPassEnabled" "1"
+	"$color2" "[0 0 0]"
 	"Proxies"
 	{
 		"spy_invis" //wmodel and team color cloak support
@@ -28,15 +28,6 @@
 		"BurnLevel"
 		{
 			"resultVar" "$detailblendfactor"
-		}
-		"YellowLevel"
-		{
-			"resultVar" "$yellow"
-		}
-		"Equals"
-		{
-			"srcVar1" "$yellow"
-			"resultVar" "$color2"
 		}
 		"Equals"
 		{
