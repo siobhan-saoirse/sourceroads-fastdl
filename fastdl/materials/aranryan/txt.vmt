@@ -9,6 +9,9 @@
 	"$detailblendfactor" .01
 	"$detailblendmode" 6
 
+	"$translucent" 0
+	"$halflambert" 1
+	"$nocull" 1
 
 	"$yellow" "0"
 	"$one" "1"

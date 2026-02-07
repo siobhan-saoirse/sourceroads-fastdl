@@ -10,6 +10,9 @@
 	"$detailblendmode" 6
 
 
+	"$translucent" 0
+	"$halflambert" 1
+	"$nocull" 1
 	"$one" "1"
 	"$cloakPassEnabled" "1"
 	"$color2" "[0.482 0.588 0.129]"
