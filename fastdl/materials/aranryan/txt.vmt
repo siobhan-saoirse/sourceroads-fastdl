@@ -9,7 +9,7 @@
 	"$detailblendfactor" .01
 	"$detailblendmode" 6
 
-	"$translucent" 0
+	"$translucent" 1
 	"$halflambert" 1
 	"$nocull" 1
 
